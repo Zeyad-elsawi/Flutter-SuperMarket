@@ -286,11 +286,9 @@ graph LR
 
 ---
 
-## 🤝 Contributing
 
-<div align="center">
 
-**We welcome contributions!** 🎉
+
 
 </div>
 
