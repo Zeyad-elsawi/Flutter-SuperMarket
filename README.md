@@ -108,27 +108,6 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://raw.githubusercontent.com/flutter/website/main/src/_assets/image/flutter-logomark-320px.png" width="48" height="48" alt="Flutter" />
-<br>Flutter
-</td>
-<td align="center" width="96">
-<img src="https://raw.githubusercontent.com/dart-lang/site-shared/main/src/_assets/image/dart/icon/64.png" width="48" height="48" alt="Dart" />
-<br>Dart
-</td>
-<td align="center" width="96">
-<img src="https://developer.android.com/images/brand/Android_Robot.png" width="48" height="48" alt="Android" />
-<br>Android
-</td>
-<td align="center" width="96">
-<img src="https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png" width="48" height="48" alt="iOS" />
-<br>iOS
-</td>
-</tr>
-</table>
-
 **Core Technologies:**
 - 🎯 **Flutter** - UI framework
 - 🎨 **Dart** - Programming language  
@@ -286,9 +265,11 @@ graph LR
 
 ---
 
+## 🤝 Contributing
 
+<div align="center">
 
-
+**We welcome contributions!** 🎉
 
 </div>
 
