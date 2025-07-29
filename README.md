@@ -1,20 +1,21 @@
-# 🛒 Super Market App
-
-Watch the App preview:https://drive.google.com/file/d/1UImVVAJMyFOxLvitKQv0EoD7UlpZ4gBW/view?usp=sharing
+# �� Super Market App
 
 <div align="center">
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-blue?style=for-the-badge)](https://flutter.dev)
 
 **A modern Flutter mobile application for a supermarket with user authentication, product browsing, cart management, and special offers.**
+
+[📱 **Watch App Preview**](https://drive.google.com/file/d/1UImVVAJMyFOxLvitKQv0EoD7UlpZ4gBW/view?usp=sharing)
 
 [Features](#-features) •
 [Installation](#-installation--setup) •
 [Screenshots](#-screenshots) •
-[Contributing](#-contributing) •
-[License](#-license)
+[Technologies](#-technologies-used) •
+[Contributing](#-contributing)
 
 </div>
 
@@ -22,9 +23,7 @@ Watch the App preview:https://drive.google.com/file/d/1UImVVAJMyFOxLvitKQv0EoD7U
 
 ## ✨ Features
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
 ### 🔐 **Authentication System**
 - ✅ **Welcome Screen** with navigation to sign-in/sign-up
@@ -38,9 +37,6 @@ Watch the App preview:https://drive.google.com/file/d/1UImVVAJMyFOxLvitKQv0EoD7U
   - 🔒 Password (minimum 6 characters)
 - ✅ **Success Dialogs** with smooth navigation
 - ✅ **Real-time Form Validation**
-
-</td>
-<td width="50%">
 
 ### 🛍️ **Shopping Experience**
 - 🎉 **Welcome Message** for users
@@ -56,14 +52,7 @@ Watch the App preview:https://drive.google.com/file/d/1UImVVAJMyFOxLvitKQv0EoD7U
   - 📜 Vertical list of special deals
   - 💰 Discounted items with descriptions
 
-</td>
-</tr>
-</table>
-
 ### 🛒 **Cart Management**
-<details>
-<summary>Click to expand cart features</summary>
-
 - 🛍️ **Shopping Cart Screen** with:
   - 📋 Cart items display
   - ⚙️ Quantity controls (add/remove)
@@ -71,11 +60,7 @@ Watch the App preview:https://drive.google.com/file/d/1UImVVAJMyFOxLvitKQv0EoD7U
   - 💳 Checkout functionality
   - 🛒 Empty cart state with "Continue Shopping"
 
-</details>
-
 ### 🎨 **UI/UX Features**
-<div align="center">
-
 | Feature | Description | Status |
 |---------|-------------|--------|
 | 🌊 **Smooth Transitions** | Between screens | ✅ |
@@ -91,29 +76,29 @@ Watch the App preview:https://drive.google.com/file/d/1UImVVAJMyFOxLvitKQv0EoD7U
 
 ## 📱 Screenshots
 
-- <img width="500" height="882" alt="Screenshot 2025-07-29 001046" src="https://github.com/user-attachments/assets/3272441a-739e-4949-8fd3-aa610e6a5f1e" />
-
-- <img width="464" height="899" alt="Screenshot 2025-07-29 001108" src="https://github.com/user-attachments/assets/ed106b67-13d9-48c1-b8a9-ff4451400d85" />
-
-- <img width="490" height="996" alt="Screenshot 2025-07-29 000851" src="https://github.com/user-attachments/assets/f3a960bd-bf0e-4f31-be4d-9ad48ac25d7b" />
-
-- **Success Dialogs** with smooth navigation to market screen
-- <img width="504" height="971" alt="Screenshot 2025-07-29 000948" src="https://github.com/user-attachments/assets/86209443-f0f4-4754-a962-06c7b7e51b12" />
-
-- **Form Validation** with real-time error messages
-
-- <img width="470" height="969" alt="Screenshot 2025-07-29 000920" src="https://github.com/user-attachments/assets/4435cd4f-e426-4d69-8061-da9269f631d3" />
-
-- <img width="457" height="864" alt="Screenshot 2025-07-29 015658" src="https://github.com/user-attachments/assets/ae370f65-0974-4f7f-8b2c-b521c4fd8223" />
-
 <div align="center">
 
-| Welcome Screen | Market Screen | Cart Screen |
-|:--------------:|:-------------:|:-----------:|
-| ![Welcome](- <img width="489" height="990" alt="Screenshot 2025-07-29 000840" src="https://github.com/user-attachments/assets/ad48d937-693f-4da0-9fd6-6961e8c7662f" />) | ![Market](<img width="442" height="861" alt="Screenshot 2025-07-29 015648" src="https://github.com/user-attachments/assets/64c01bcc-efd3-4c26-8d96-fc529aabc1e0" />
-) | ![Cart](<img width="462" height="924" alt="Screenshot 2025-07-29 015638" src="https://github.com/user-attachments/assets/8d75bb25-162f-496e-8c25-308d3e502ba4" />
-) |
-| *Beautiful welcome with gradients* | *Product browsing experience* | *Shopping cart management* |
+### 🏠 **Welcome & Authentication**
+
+<img width="489" height="990" alt="Welcome Screen" src="https://github.com/user-attachments/assets/ad48d937-693f-4da0-9fd6-6961e8c7662f" />
+
+<img width="500" height="882" alt="Sign Up Screen" src="https://github.com/user-attachments/assets/3272441a-739e-4949-8fd3-aa610e6a5f1e" />
+
+<img width="464" height="899" alt="Sign Up Validation" src="https://github.com/user-attachments/assets/ed106b67-13d9-48c1-b8a9-ff4451400d85" />
+
+<img width="490" height="996" alt="Sign In Screen" src="https://github.com/user-attachments/assets/f3a960bd-bf0e-4f31-be4d-9ad48ac25d7b" />
+
+<img width="504" height="971" alt="Success Dialog" src="https://github.com/user-attachments/assets/86209443-f0f4-4754-a962-06c7b7e51b12" />
+
+<img width="470" height="969" alt="Form Validation" src="https://github.com/user-attachments/assets/4435cd4f-e426-4d69-8061-da9269f631d3" />
+
+### 🛒 **Shopping Experience**
+
+<img width="457" height="864" alt="Market Screen" src="https://github.com/user-attachments/assets/ae370f65-0974-4f7f-8b2c-b521c4fd8223" />
+
+<img width="442" height="861" alt="Product Browsing" src="https://github.com/user-attachments/assets/64c01bcc-efd3-4c26-8d96-fc529aabc1e0" />
+
+<img width="462" height="924" alt="Cart Management" src="https://github.com/user-attachments/assets/8d75bb25-162f-496e-8c25-308d3e502ba4" />
 
 </div>
 
@@ -361,18 +346,13 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-
-<div align="center">
-
-
-</div>
-
----
-
 <div align="center">
 
 **🎨 Built with ❤️ using Flutter**
 
+⭐ **Star this repo if you like it!** ⭐
 
+![Made with Flutter](https://img.shields.io/badge/Made%20with-Flutter-blue?style=for-the-badge&logo=flutter)
+![Powered by Dart](https://img.shields.io/badge/Powered%20by-Dart-0175C2?style=for-the-badge&logo=dart)
 
 </div>
